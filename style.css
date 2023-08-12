@@ -1,0 +1,180 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  
+  .navbar {
+    background-color: #007bff;
+    padding: 20px 0;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand:hover {
+    color: #e0e0e0;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #e0e0e0;
+  }
+  
+  /* Section Styles */
+  
+  .container {
+    padding: 60px 15px;
+  }
+  
+  /* About Section Styles */
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #about h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333333;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666666;
+    margin-top: 15px;
+  }
+  
+  /* Portfolio Section Styles */
+  
+/* Portfolio Section Styles */
+
+#portfolio {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  #portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .portfolio-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .portfolio-item h4 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .portfolio-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #666666;
+  }
+  
+  .portfolio-item a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .portfolio-item a:hover {
+    color: #0056b3;
+  }
+  
+  
+  
+
+  
+  /* Contact Section Styles */
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+  
+  .contact-info h4,
+  .contact-form h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666666;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
